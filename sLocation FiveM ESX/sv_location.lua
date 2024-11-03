@@ -14,7 +14,7 @@ RegisterServerEvent('s0ltrak:location:buy', function(name, price, rentalTime)
                 xPlayer.removeAccountMoney('bank', vehicle.price)
                 TriggerClientEvent('esx:showNotification', source, "" .. price .. "$ vous ont été prélevés de votre compte bancaire ")
                 TriggerClientEvent('s0ltrak:location:spawnVehicle', source, name, rentalTime)
-                PerformHttpRequest("https://discord.com/api/webhooks/1302452865096486964/N9Qo17y6oeFC7IksP4VwxJQRWwVOnO_92v_Gh9dXFZQ8XOlHwbxjaR5Nlaq-uyHj6HCP", function(err, text, headers) end, "POST", json.encode({
+                PerformHttpRequest("VOTRE WEBHOOK ICI", function(err, text, headers) end, "POST", json.encode({
                     username = "Location de Véhicule",
                     embeds = {{
                         title = "Achat de Location",
