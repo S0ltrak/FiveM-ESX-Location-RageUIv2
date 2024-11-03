@@ -162,7 +162,7 @@ CreateThread(function()
                 Wait(500) 
             end
         else 
-            print('[^6CLIENT^7] => [^6SERVER^7] => [^2INFO^7] => [^3ESX^7] => => [^6SERVER^7] => [^6SERVER^7] => [^2INFO^7] => [^3ESX^7] => => [^1ERROR^7] => => Coordonnées de location non définies')
+            print('[^6CLIENT^7] => [^2INFO^7] => [^1ERROR^7] => Coordonnées de location non définies')
             Wait(1000)
         end
     end
